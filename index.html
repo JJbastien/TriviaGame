@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    
+    <title>AWESOME TRIVIA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+
+</head>
+<body>
+    <hi id ="title">This is the Awesome trivia show</h1>
+    <h2 id ="toDo">Guess the right answer</h2>
+
+<div class = "questions">
+   <form id = "trivia"name = "trivia">
+
+   <p>1_ what is the name of the first recorded battle in human history?</p> 
+   <input type= "radio" id = "choice1" name = "question1" value = "Meggido">Meggido <br>
+   <input type= "radio" id = "choice2" name = "question1" value = "Armagedon">Armaggeon <br>
+   <input type= "radio" id = "choice3" name = "question1" value = "Malon">Malon <br>
+   <input type= "radio" id = "choice4" name = "question1" value = "Dunkirk">Dunkirk <br>
+
+   <p>2_ What day is D-day?</p> 
+   <input type= "radio" id = "choice" name = "question2" value = "June 6th 1944">June 6th 1944 <br>
+   <input type= "radio" id = "choice" name = "question2" value= "3May 30th 1944">May 30th 1944 <br>
+   <input type= "radio" id = "choice" name = "question2" value= "June 4th 1944 ">June 4th 1944 <br>
+   <input type= "radio" id = "choice" name = "question2" value= "May 31st 1944">May 31st 1944 <br>
+  
+   
+   <p>3_ Which battle caused the fall of Napoleon?</p> 
+   <input type= "radio" id = "choice" name = "question3" value = "Waterloo"> Waterloo<br>
+   <input type= "radio" id = "choice" name = "question3" value= "Watergate">Watergate <br>
+   <input type= "radio" id = "choice" name = "question3" value= "Warsaw">Warsaw <br>
+   <input type= "radio" id = "choice" name = "question3" value= "Waterpolo">Waterpolo <br>
+
+   <p>4_ Who led the Allied Army during the last stage of the WWII?</p> 
+   <input type= "radio" id = "choice" name = "question4" value = "Dwight Eisenhower">Dwight Eisenhower <br>
+   <input type= "radio" id = "choice" name = "question4" value= "Montgomery">Montgomery<br>
+   <input type= "radio" id = "choice" name = "question4" value= "George Patton">George Patton <br>
+   <input type= "radio" id = "choice" name = "question4" value= "De Gaulle">De Gaulle <br>
+
+   <p>5_ The first firearms were developed in this country</p> 
+   <input type= "radio" id = "choice" name = "question5" value = "China">China <br>
+   <input type= "radio" id = "choice" name = "question5" value= "Spain">Spain <br>
+   <input type= "radio" id = "choice" name = "question5" value= "France">France <br>
+   <input type= "radio" id = "choice" name = "question5" value= "England">England <br>
+
+   <p>6_ This battle in this Russian city turned the tide WWII</p> 
+   <input type= "radio" id = "choice" name = "question6" value= "Stalingrad"> Stalingrad<br>
+   <input type= "radio" id = "choice" name = "question6" value= "Leningrad">Leningrad <br>
+   <input type= "radio" id = "choice" name = "question6" value= "Moscow">Moscow <br>
+   <input type= "radio" id = "choice" name = "question6" value= "Vladivostok">Vladivostok <br>
+
+   <p>7_ Last person to successfully conquer the British Isles.</p> 
+   <input type= "radio" id = "choice" name = "question7" value = "William the Conqueror">William the Conqueror <br>
+   <input type= "radio" id = "choice" name = "question7" value= "Harold the Conqueror">Harold the Conqueror<br>
+   <input type= "radio" id = "choice" name = "question7" value= "Francisco Pizzaro">Francisco Pizzaro<br>
+   <input type= "radio" id = "choice" name = "question7" value= "Hernan Cortes">Hernan Cortes <br>
+
+   <p>8_ How long lasted the 100-year wars</p> 
+   <input type= "radio" id = "choice" name = "question8" value= "100 years">100 years <br>
+   <input type= "radio" id = "choice" name = "question8" value= "116 years">116 years <br>
+   <input type= "radio" id = "choice" name = "question8" value = "99 years">99 years<br>
+   <input type= "radio" id = "choice" name = "question8" value = "101 years">101 years<br>
+
+   <p>9_ This war features a famous wooden hollow horse</p> 
+   <input type= "radio" id = "choice" name = "question9" value = "Troy">Troy<br>
+   <input type= "radio" id = "choice" name = "question9" value = "Odysseus">Odysseus<br>
+   <input type= "radio" id = "choice" name = "question9" value = "Aurelius">Aurelius <br>
+   <input type= "radio" id = "choice" name = "question9" value = "Achilles">Achilles <br>
+
+   <p>10- This battle gave its name to an olympic event</p> 
+   <input type= "radio" id = "choice" name = "question10" value = "Marathon">Marathon<br>
+   <input type= "radio" id = "choice" name = "question10" value = "Decathlon">Decathlon<br>
+   <input type= "radio" id = "choice" name = "question10" value = "Penthatlon">Penthatlon <br>
+   <input type= "radio" id = "choice" name = "question10" value = "Heptatlon."> Heptatlon.<br>
+   
+
+   
+    <input id ="button" type = "button" value = "submit"  >
+
+    </form>
+
+    <div id = "result">
+    <p id = "total">Number answered:</p>
+    <p id = "unanswered">Number unanswered:</p>
+    <p id = "wrong"></p>
+    <p id = "right"></p>
+    </div>
+    
+
+
+
+
+</div>
+
+    
+</body>
+</html>
