@@ -1,3 +1,15 @@
 #result{
-    visibility: hidden
+    visibility: hidden;
+}
+body {
+background-color: lightgray;
+margin: 10px;
+padding: 10px;
+}
+#container{
+    border-style: solid; 
+    border-width: thick;
+    width: auto;
+    border-color: teal;
+    padding: 10px;
 }
